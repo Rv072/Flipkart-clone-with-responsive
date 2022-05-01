@@ -1,0 +1,55 @@
+@media (max-width: 950px) {
+  input.insearch {
+    width: 93vw;
+    height: 46px;
+    border-radius: 2px 0 0 2px;
+    text-align: left;
+    padding-left: 12px;
+    margin-bottom: 9px;
+  }
+  header {
+    padding: 0 28px;
+  }
+  .hamberg {
+    display: block;
+    margin: auto;
+    background: white;
+  }
+
+  .ham {
+    display: block;
+    display: flex;
+  }
+  div.action-button {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    gap: 30px;
+    display: none;
+  }
+  a.flipicon {
+    margin-left: 0px;
+  }
+.mobile {
+      display: flex;
+    
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    gap: 25px;
+}
+h2.deal {
+  font-size: 16px;
+}
+.hamiconmobile {
+  margin: auto;
+}
+div.list>ul{
+  gap: 20px;
+}
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* ======================================================== */
